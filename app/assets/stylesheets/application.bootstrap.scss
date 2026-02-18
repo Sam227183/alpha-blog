@@ -1,0 +1,43 @@
+// @import 'bootstrap/scss/bootstrap';
+// @import 'bootstrap-icons/font/bootstrap-icons';
+
+@import "bootstrap/scss/bootstrap";
+
+.navbar {
+  background-color: #6a1b9a !important; // 보라색으로 강제 변경
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#home-container {
+  margin-top: 25px;
+}
+
+.jumbotron {
+  background-image: url('image-jumbotron.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: beige;
+}
+
+#sticky-footer {
+  flex-shrink: 0;
+}
