@@ -27,10 +27,11 @@
   
     <main id="page-content" class="flex-grow-1">
       <%= render 'layouts/navigation' %>
-      
-      <div class="container mt-4">
-        <%= render 'layouts/messages' %>
-        <%= yield %>
+      <div id="page-content">
+        <div class="container mt-4">
+          <%= render 'layouts/messages' %>
+          <%= yield %>
+        </div>
       </div>
     </main>
 
